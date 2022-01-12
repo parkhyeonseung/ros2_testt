@@ -1,7 +1,7 @@
 import rclpy
 from rclpy.node import Node
 
-from basic_interface.msg import MockSensor
+from basic_interface.msg import Mocksensor
 
 
 class CustomMsgSubscriber(Node):
@@ -9,7 +9,7 @@ class CustomMsgSubscriber(Node):
     def __init__(self):
         super().__init__('custom_msg_subscriber')
         self.subscription = self.create_subscription(
-            MockSensor,
+            Mocksensor,
             'mocksensor_topic',
             self.listener_callback,
             10)

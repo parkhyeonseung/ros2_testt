@@ -22,8 +22,8 @@ setup(
         'console_scripts': [
             'basic_service_server = simple_service_python.basic_service_server:main',
             'basic_service_client = simple_service_python.basic_service_client:main',
-            'custom_service_server = simple_service_python.custom_service_server:main',
-            'custom_service_client = simple_service_python.custom_service_client:main',
+            'custom_server = simple_service_python.custom_service_server:main',
+            'custom_client = simple_service_python.custom_service_client:main',
         
         ],
     },
