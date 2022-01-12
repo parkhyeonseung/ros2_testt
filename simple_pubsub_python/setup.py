@@ -22,7 +22,6 @@ setup(
         'console_scripts': [
             'basic_publisher = simple_pubsub_python.basic_publisher:main',
             'basic_subscriber = simple_pubsub_python.basic_subscriber:main',
-            'image = simple_pubsub_python.image:main',
         ],
     },
 )
