@@ -13,7 +13,7 @@ class Basecalserver(Node):
             response.result = eval(cal)
         else :
             self.get_logger().info('please input +,-,*,/')
-        self.get_logger().info('%d %s %d = %d' % (request.ac , request.gi, request.bc,response.result))
+        self.get_logger().info('%f %s %f = %f' % (request.ac , request.gi, request.bc,response.result))
         return response
 
 def main(args=None):

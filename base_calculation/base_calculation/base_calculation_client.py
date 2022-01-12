@@ -54,7 +54,7 @@ def main(args=None):
                 break
             else:
                 if type(response.result) == float:
-                    basic_cal_client.get_logger().info('%d %s %d = %d ' % (basic_cal_client.req.ac,basic_cal_client.req.gi,basic_cal_client.req.bc, response.result))
+                    basic_cal_client.get_logger().info('%f %s %f = %f ' % (basic_cal_client.req.ac,basic_cal_client.req.gi,basic_cal_client.req.bc, response.result))
                 else:
                     basic_cal_client.get_logger().info('fail')
 
