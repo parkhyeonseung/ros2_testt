@@ -22,6 +22,9 @@ setup(
         'console_scripts': [
             'basic_publisher = simple_pubsub_python.basic_publisher:main',
             'basic_subscriber = simple_pubsub_python.basic_subscriber:main',
+            'custom_pub = simple_pubsub_python.custom_msg_publisher.py:main',
+            'custom_sub = simple_pubsub_python.custom_msg_subscriber.py:main',
+
         ],
     },
 )
