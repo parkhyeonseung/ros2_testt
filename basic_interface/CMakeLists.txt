@@ -23,6 +23,7 @@ find_package(ament_cmake REQUIRED)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
+  find_package(rosidl_default_generators REQUIRED)
   # the following line skips the linter which checks for copyrights
   # uncomment the line when a copyright and license is not present in all source files
   #set(ament_cmake_copyright_FOUND TRUE)
@@ -34,8 +35,8 @@ endif()
 
 ## srv part
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/MockSensor.msg"
-  "srv/MockSensorControl.srv"
+  "msg/Mocksensor.msg"
+  "srv/Mocksensorcontrol.srv"
 )
 
 ament_package()
