@@ -23,6 +23,7 @@ find_package(ament_cmake REQUIRED)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
+  find_package(builtin_interfaces REQUIRED)   ### action 
   find_package(rosidl_default_generators REQUIRED)
   # the following line skips the linter which checks for copyrights
   # uncomment the line when a copyright and license is not present in all source files
@@ -38,6 +39,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Mocksensor.msg"
   "srv/Mocksensorcontrol.srv"
   "srv/Basecal.srv"
+  "action/Randomaction.action"
+  DEPENDENCIES builtin_interfaces  ### action
 )
 
 ament_package()
