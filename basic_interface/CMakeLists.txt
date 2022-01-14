@@ -40,6 +40,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/Mocksensorcontrol.srv"
   "srv/Basecal.srv"
   "action/Randomaction.action"
+  "srv/IsimpleLedControl.srv"
   DEPENDENCIES builtin_interfaces  ### action
 )
 

@@ -24,6 +24,8 @@ setup(
             'basic_service_client = simple_service_python.basic_service_client:main',
             'custom_server = simple_service_python.custom_service_server:main',
             'custom_client = simple_service_python.custom_service_client:main',
+            'continue_server=simple_service_python.continue_server:main',
+            'continue_client=simple_service_python.continue_client:main'
         
         ],
     },
