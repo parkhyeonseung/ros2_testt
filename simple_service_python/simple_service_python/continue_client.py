@@ -1,6 +1,6 @@
 import sys
 
-from roscr_bridge_interfaces.srv import IsimpleLedControl
+from basic_interface.srv import IsimpleLedControl
 import rclpy
 from rclpy.node import Node
 
