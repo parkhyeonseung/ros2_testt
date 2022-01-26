@@ -1,0 +1,20 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/phs/colcon_ws/build/simple_service_python",
+        "/home/phs/colcon_ws/install/simple_service_python/lib/python3.8/site-packages",
+        "/home/phs/colcon_ws/build/simple_pubsub_python",
+        "/home/phs/colcon_ws/install/simple_pubsub_python/lib/python3.8/site-packages",
+        "/home/phs/colcon_ws/build/simple_action_python",
+        "/home/phs/colcon_ws/install/simple_action_python/lib/python3.8/site-packages",
+        "/home/phs/colcon_ws/build/python_parameters",
+        "/home/phs/colcon_ws/install/python_parameters/lib/python3.8/site-packages",
+        "/home/phs/colcon_ws/build/onepub_twosub",
+        "/home/phs/colcon_ws/install/onepub_twosub/lib/python3.8/site-packages",
+        "/home/phs/colcon_ws/build/base_calculation",
+        "/home/phs/colcon_ws/install/base_calculation/lib/python3.8/site-packages",
+        "/home/phs/colcon_ws/build/action_test",
+        "/home/phs/colcon_ws/install/action_test/lib/python3.8/site-packages",
+        "/home/phs/colcon_ws/install/basic_interface/lib/python3.8/site-packages",
+        "/opt/ros/foxy/lib/python3.8/site-packages"
+    ]
+}
